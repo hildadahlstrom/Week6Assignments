@@ -1,6 +1,4 @@
-// 
 // This game is completely run through the alerts
-// 
 
 //This class is used to create a player and assign them a name, points, and their deck of cards
 //It also has a method to play a card from a specific index
@@ -11,7 +9,6 @@ class Player{
         this.points = 0;
     }
     
-
     playCard(index){
         return this.currentCards[index];
     }
@@ -87,7 +84,6 @@ function dealCards(deck, player1,player2){
             player2.currentCards.push(deck.cards[i]);
         }
     }
-
     //deal half the cards to each player
 }
 
